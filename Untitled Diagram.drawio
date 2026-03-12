@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1">
+  <diagram name="Page-1" id="FxwJDjQQ6yVQoqpPFvn5">
+    <mxGraphModel dx="1088" dy="1694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dqROn7Mcym716NL6oRnf-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="jelszó megadása" vertex="1">
+          <mxGeometry height="80" width="80" x="385" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dqROn7Mcym716NL6oRnf-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="jó a jelszó?" vertex="1">
+          <mxGeometry height="80" width="80" x="390" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="dqROn7Mcym716NL6oRnf-10" edge="1" parent="1" source="dqROn7Mcym716NL6oRnf-1" style="endArrow=classic;html=1;rounded=0;exitX=0.623;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dqROn7Mcym716NL6oRnf-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dqROn7Mcym716NL6oRnf-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="dqROn7Mcym716NL6oRnf-13" value="nem">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="280" as="sourcePoint" />
+            <mxPoint x="590" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dqROn7Mcym716NL6oRnf-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="hibás jelszó" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="dqROn7Mcym716NL6oRnf-14" edge="1" parent="1" source="dqROn7Mcym716NL6oRnf-6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="dqROn7Mcym716NL6oRnf-15" value="igen">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dqROn7Mcym716NL6oRnf-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Üdvözlő szöveg kiírása" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="dqROn7Mcym716NL6oRnf-16" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="425" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="dqROn7Mcym716NL6oRnf-17" parent="1" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="400" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="dqROn7Mcym716NL6oRnf-18" edge="1" parent="1" source="dqROn7Mcym716NL6oRnf-17" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dqROn7Mcym716NL6oRnf-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="120" as="sourcePoint" />
+            <mxPoint x="450" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dqROn7Mcym716NL6oRnf-19" edge="1" parent="1" source="dqROn7Mcym716NL6oRnf-15" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dqROn7Mcym716NL6oRnf-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="620" as="sourcePoint" />
+            <mxPoint x="450" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
